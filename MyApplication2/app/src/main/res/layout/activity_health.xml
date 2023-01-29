@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAE7"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="309dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@drawable/quad"
+        android:text="운동과 식단" />
+
+    <Button
+        android:id="@+id/food_button"
+        android:layout_width="301dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:background="@drawable/aquare_g"
+        android:textSize="18dp"
+        android:text="음식 칼로리" />
+
+    <Button
+        android:id="@+id/exercise_botton"
+        android:layout_width="301dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="367dp"
+        android:textSize="18dp"
+        android:background="@drawable/aquare_g"
+        android:text="운동 영상" />
+</RelativeLayout>

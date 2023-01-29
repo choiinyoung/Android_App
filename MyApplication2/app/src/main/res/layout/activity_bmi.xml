@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAE7"
+    >
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="365dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/quad"
+        android:gravity="center"
+        android:text="BMI 확인"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/check_Layout">
+
+        <EditText
+            android:id="@+id/cm"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginBottom="353dp"
+            android:hint="키" />
+
+        <EditText
+            android:id="@+id/kg"
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="278dp"
+            android:hint="몸무게" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="197dp" >
+
+        </RadioGroup>
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="213dp"
+            android:layout_height="112dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:layout_marginBottom="145dp"
+            android:text="남자"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="157dp"
+            android:layout_height="106dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="151dp"
+            android:text="여자"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="113dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/oval"
+        android:text="확인" />
+
+</RelativeLayout>

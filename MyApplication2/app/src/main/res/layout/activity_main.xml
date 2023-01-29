@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAE7"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="273dp"
+        android:layout_height="267dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:background="@drawable/oval"
+        android:gravity="center"
+        android:text="Health\nManagement"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="345dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/square"
+        android:text="    로그인"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/login">
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="129dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="로그인" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="198dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="121dp"
+            android:hint="password" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="157dp"
+            android:layout_marginRight="157dp"
+            android:layout_marginBottom="185dp"
+            android:hint="Email" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/id_button"
+        android:layout_width="331dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="76dp"
+        android:gravity="center"
+        android:background="#00FFFFFF"
+        android:text="아이디를 잊으셨나요?" />
+
+    <Button
+        android:id="@+id/pw_button"
+        android:layout_width="325dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:background="#00FFFFFF"
+        android:text="비밀번호를 잊으셨나요?" />
+
+    <Button
+        android:id="@+id/m_button"
+        android:layout_width="326dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:background="#00FFFFFF"
+        android:text="회원이 아니신가요 ?" />
+
+
+
+</RelativeLayout>
